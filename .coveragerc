@@ -1,0 +1,14 @@
+[run]
+branch = true
+source =
+    response_api/
+
+[paths]
+source =
+    response_api/
+
+[report]
+show_missing = true
+sort = Miss
+fail_under = 40
+skip_empty = true
